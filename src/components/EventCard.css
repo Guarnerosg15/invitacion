@@ -1,54 +1,47 @@
-/* src/components/EventCard.css */
 .event-card {
-    background-color: #f7d6d0;
+    background-color:#d5c1db;
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-}
-
-.event-image {
+  }
+  
+  .event-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .event-image {
     width: 100%;
     border-radius: 10px;
-}
-
-.event-buttons {
-    margin-top: 10px;
-}
-
-.event-buttons button {
-    background-color: #b56576;
-    color: white;
+  }
+  
+  .event-place {
+    margin: 10px 0;
+    font-weight: bold;
+  }
+  
+  .event-date,
+  .event-address {
+    margin: 5px 0;
+  }
+  
+  .event-buttons {
+    margin-top: 100px;
+  }
+  
+  .event-buttons button {
+    background-color: #6c4e75;
+    color: rgb(0, 0, 0);
     border: none;
-    padding: 10px 20px;
+    padding: 25px 20px;
     margin: 5px;
     border-radius: 5px;
     cursor: pointer;
-}
-
-.event-buttons button:hover {
-    background-color: #98546a;
-}
-
-.modal {
-    background: white;
-    border-radius: 10px;
-    max-width: 600px;
-    margin: auto;
-    padding: 20px;
-    position: relative;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.modal-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.75);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+  }
+  
+  .event-buttons button:hover {
+    background-color: #ceb2b2;
+  }
+  
